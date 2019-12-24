@@ -1,3 +1,12 @@
-p {
-color:blueviolet;
+h1, h2, h3, h4, h5, h6 {
+    color:navy;
+}
+.red {
+    color:red;
+}
+.large {
+    font-size:200%;
+}
+#goldenrod{
+    color:goldenrod;
 }
