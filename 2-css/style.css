@@ -1,9 +1,12 @@
 body {
     background-color:#f1f1f1;
 }
-
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
 h1, h2, h3, h4, h5, h6 {
     color:navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .red {
@@ -22,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     width:40%;
     background-color:pink;
     position:relative;
+    margin-top:100px;
 }
 
 #second-section {
