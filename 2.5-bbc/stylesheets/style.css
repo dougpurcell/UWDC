@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+.main-menu {
+    background-color:black;
+    /* position:absolute;
+    top:0;
+    left:0;
+    width:100%; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+#logo {
+    padding:6px 0 4px 10px;
+}
+#logo img {
+    width:11%;
+    height:auto;
+}
+#menu-items {
+    display:flex;
+}
+#menu-items li{
+    color:white;
+    list-style: none;
+    float:left;
+}
