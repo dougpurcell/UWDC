@@ -1,42 +1,36 @@
 body {
-    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-p, li, ul {
-    font-size: .9rem;
+p {
+
+    font-size:.9rem;
 }
-.menu {
-    background-color:black;
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-    position:absolute;
-    top:0; 
-    left:0;
+#top-bar {
+    width:1000px;
+    margin:0 auto;
+    height:40px;
 }
 #logo {
-    padding:5px 0 0 5px;
-    width:11%;
-}
-#logo img {
-    width:100%;
+    margin:8px 8px 0 8px;
+    width:10%;
     height:auto;
+    float:left;
 }
-#menu-items {
-    float:right;
+#signin-logo {
+    width:40px;
+    margin: 6px;
+    float:left;
 }
-#menu-items ul{
-    display:flex;
-    align-items: stretch;
-    list-style: none;
-    color:#ffffff;
+#signin-text {
+    font-weight:bold;
+    font-size:90%;
+    position: relative;
+    top:16px;
 }
-#menu-items li{
-    padding:0 10px 0 10px;
-    border-left: 1px solid #ffffff;
-
-} 
-#menu-items li:last-child {
-    border-right:1px solid #ffffff;
+.topbar-section {
+    float:left;
+    border-left: 1px solid #cccccc;
+    height:100%;
 }
