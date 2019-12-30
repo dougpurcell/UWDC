@@ -1,3 +1,4 @@
+/* Globals */
 body {
     margin:0;
     padding:0;
@@ -28,6 +29,7 @@ p {
 .clear {
     clear:both;
 }
+/* End Globals */
 /* Top Bar */
 #top-bar {
     width:1300px;
