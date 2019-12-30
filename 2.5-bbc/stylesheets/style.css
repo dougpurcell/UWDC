@@ -20,7 +20,7 @@ h2 {
     padding:10px 0 5px;
     color: #404040;
     font-weight: normal;
-    border-bottom: 3px solid #bb1919;
+    border-bottom: 3px solid #A92C24;
 }
 p {
     font-size:.8rem;
@@ -87,7 +87,7 @@ p {
 /* Menu Bar */
 #menu-bar-container {
     height: 100px;
-    background-color:#AC2D25;
+    background-color:#A92C24;
     width:100%;
 }
 #menu-bar {
@@ -127,7 +127,7 @@ p {
     text-decoration:none;
     color:#ffffff;
     padding: 5px 8px;
-    border-left: 1px solid #bb454f; 
+    border-left: 1px solid #A92C24; 
     font-size:87%;
 }
 #menu-bar-2 a:first-child{
@@ -147,29 +147,86 @@ p {
 #posts-container{
     margin-top:20px;
 }
-#featured-post {
-    float:left;
-    max-width:500px;
-}
-#featured-post img {
-    height: 275px;
-}
-#featured-post-title {
-    font-weight:700;
-    font-size:1.4rem;
-    float:left;
-    color:#222222;
-}
-#featured-post-excerpt {
-    float:left;
-    color:#5A5A5A;
-    margin-top:8px;
-}
-#featured-post a {
-    text-decoration:none;
-
-}
-#featured-post-title:hover {
-    text-decoration: underline;
-    color: #4082A0;
-}
+    /* Featured Post */
+    #featured-post {
+        float:left;
+        max-width:500px;
+    }
+    #featured-post img {
+        height: 275px;
+    }
+    #featured-post-title {
+        font-weight:700;
+        font-size:1.75rem;
+        float:left;
+        color:#222222;
+    }
+    #featured-post-excerpt {
+        float:left;
+        color:#5A5A5A;
+        margin-top:10px;
+        font-size:.9rem;
+    }
+    #featured-post a {
+        text-decoration:none;
+    }
+    #featured-post-title:hover {
+        text-decoration: underline;
+        color: #4082A0;
+    }
+    #featured-post-meta {
+        color: #5A5A5A;
+        font-size:.8rem;
+        position:relative;
+        top:15px;
+    }
+    #featured-post-meta a {
+        color: #222222;
+        text-decoration:none;
+    }
+    #featured-post-meta a:hover {
+        text-decoration: underline;
+        color: #4082A0;
+    }
+    #featured-post-meta img {
+        height:15px;
+        position:relative;
+        top:3px;
+    }
+    /* End Featured Post */
+    /* All Posts */
+    .post-title {
+        font-size:1rem;
+        color:#222222;
+        font-weight:700;
+    }
+    .post-excerpt {
+        color:#5a5a5a;
+    }
+    .post a {
+        text-decoration:none;
+    }
+    .post img {
+        height: 133px;
+    }
+    .post-meta {
+        color: #5A5A5A;
+        font-size:.8rem;
+        position:relative;
+        top:15px;
+    }
+    .post-meta a {
+        color: #222222;
+        text-decoration:none;
+    }
+    .post-meta a:hover {
+        text-decoration: underline;
+        color: #4082A0;
+    }
+    .post-meta img {
+        height:15px;
+        position:relative;
+        top:3px;
+    }
+    /* End All Posts */
+/* End Page Contents */
