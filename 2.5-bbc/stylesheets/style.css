@@ -3,12 +3,34 @@ body {
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
-p {
-
-    font-size:.9rem;
+h1 {
+    padding:10px 0 0 0;
+    margin: 0px;
+    color:#ffffff;
+    font-size:40px;
+    font-weight:400;
+    float:left;
+    position:relative;
+    right:122px;
 }
+h2 {
+    font-size: 1.25rem;
+    float:left;
+    margin:0px;
+    padding:10px 0 5px;
+    color: #404040;
+    font-weight: normal;
+    border-bottom: 3px solid #bb1919;
+}
+p {
+    font-size:.8rem;
+}
+.clear {
+    clear:both;
+}
+/* Top Bar */
 #top-bar {
-    width:1000px;
+    width:1300px;
     margin:0 auto;
     height:40px;
 }
@@ -19,7 +41,7 @@ p {
 }
 #logo {
     margin:4px 8px 0 8px;
-    width:10%;
+    width:9%;
     height:auto;
     float:left;
 }
@@ -30,18 +52,95 @@ p {
 }
 #signin-text {
     font-weight:bold;
-    font-size:90%;
+    font-size:80%;
     position: relative;
     top:14px;
-    padding: 0 60px 0 0;
+    padding: 0 70px 0 0;
 }
 .topbar-menu {
     font-weight:bold; 
-    font-size:90%; 
+    font-size:80%; 
     padding: 14px 15px;
     height: 8px;
 }
 #downarrow {
     height:12px;
-    padding: 0 10px 0 50px;
+    padding: 0 0 0 45px;
+}
+.topbar-section input {
+    background-color: rgba(228, 228, 228, 1.0);
+    border:none;
+    margin:8px 0 0 13px;
+    font-weight: bold;
+    width:175px;
+    padding: 4px;
+    font-size:85%;
+    color:rgba(51, 51, 51, 1.0);
+}
+#magnifyingglass {
+    height:18px;
+    position:relative;
+    right:32px;
+    top:3px;
+}
+/* End Top Bar */
+/* Menu Bar */
+#menu-bar-container {
+    height: 100px;
+    background-color:#AC2D25;
+    width:100%;
+}
+#menu-bar {
+    width:1300px;
+    margin:0 auto;
+    height:40px;
+}
+#find-local-news {
+    float:right;
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    padding:8px 50px 8px 12px;
+    position:relative;
+    top:20px;
+    right:135px;
+    font-size: 90%;
+}
+#find-local-news a {
+    color:#ffffff;
+    text-decoration:none;
+}
+#find-local-news a:hover{
+    color: rgb(220, 220, 220);
+    text-decoration:underline;
+}
+#menu-bar-2-container {
+    float:left;
+    height:100%;
+    width:100%
+}
+#menu-bar-2 {
+    width:1300px;
+    margin:15px auto;
+}
+
+#menu-bar-2 a {
+    text-decoration:none;
+    color:#ffffff;
+    padding: 5px 8px;
+    border-left: 1px solid #bb454f; 
+    font-size:87%;
+}
+#menu-bar-2 a:first-child{
+    border:none;
+}
+#menu-bar-2 a img {
+    height:13px;
+}
+/* End Menu Bar */
+/* Page Contents */
+#page-contents {
+    width:1300px;
+    margin:0 auto;
+    height:40px;
+    padding-left:15px;
 }
