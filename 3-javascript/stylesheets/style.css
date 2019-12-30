@@ -1,16 +1,16 @@
 .circle {
     height:200px;
     width:200px;
-    border-radius: 100%;
+    border-radius: 50%;
     float:left;
     margin:15px;
 }
 #redCircle {
-    background-color:red;
+    background-color:rgb(255, 69, 69);
 }
 #blueCircle {
-    background-color:blue;
+    background-color:rgb(69, 69, 255);
 }
 #yellowCircle {
-    background-color:yellow;
+    background-color:rgb(255, 255, 69);
 }
