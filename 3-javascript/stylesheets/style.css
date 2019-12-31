@@ -14,3 +14,6 @@
 #yellowCircle {
     background-color:rgb(255, 255, 69);
 }
+#disappearingCircles {
+    display:none;
+}
